@@ -43,7 +43,7 @@ def welcome():
     exit_game = False
     while not exit_game:
         gameWindow.fill((233,210,229))
-        text_screen("Welcome to SnakeCharmer", black, 260, 250)
+        text_screen("Welcome to SnakeCharmer", black, 220, 250)
         text_screen("Press Space Bar To Play", black, 232, 290)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
