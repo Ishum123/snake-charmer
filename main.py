@@ -24,7 +24,7 @@ bgimg = pygame.transform.scale(bgimg, (screen_width, screen_height)).convert_alp
 
 
 # Game Title
-pygame.display.set_caption("SnakesWithHarry")
+pygame.display.set_caption("SnakeCharmer")
 pygame.display.update()
 clock = pygame.time.Clock()
 font = pygame.font.SysFont(None, 55)
@@ -43,7 +43,7 @@ def welcome():
     exit_game = False
     while not exit_game:
         gameWindow.fill((233,210,229))
-        text_screen("Welcome to Snakes", black, 260, 250)
+        text_screen("Welcome to SnakeCharmer", black, 260, 250)
         text_screen("Press Space Bar To Play", black, 232, 290)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
